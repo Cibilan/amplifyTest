@@ -1,0 +1,12 @@
+{
+    "permissions": {
+        "storage": {
+            "NotiList": [
+                "create",
+                "read",
+                "update",
+                "delete"
+            ]
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "tableName": "NotiList",
+    "partitionKeyName": "notifyTrackerId",
+    "partitionKeyType": "S"
+}

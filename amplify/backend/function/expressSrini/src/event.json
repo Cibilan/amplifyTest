@@ -1,0 +1,13 @@
+{
+  "resource": "/expressSrini",
+  "path": "/expressSrini",
+  "httpMethod": "GET",
+  "headers": null,
+  "multiValueHeaders": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "body": null,
+  "isBase64Encoded": false
+}

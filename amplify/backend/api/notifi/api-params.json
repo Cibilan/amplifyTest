@@ -1,0 +1,132 @@
+{
+    "paths": [
+        {
+            "name": "/sendNotification",
+            "lambdaFunction": "storeNotify",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/crud",
+            "lambdaFunction": "testamplify6b652e9b",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/expresss",
+            "lambdaFunction": "testamplify72f78b60",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/hello",
+            "lambdaFunction": "testamplifyb11e842f",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/updateStatus",
+            "lambdaFunction": "testamplify72f78b60",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/postDemo",
+            "lambdaFunction": "postDemo",
+            "privacy": {
+                "open": true
+            }
+        },
+        {
+            "name": "/expressSrini",
+            "lambdaFunction": "expressSrini",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "notifi",
+    "apiName": "notifi",
+    "functionArns": [
+        {
+            "lambdaFunction": "storeNotify"
+        },
+        {
+            "lambdaFunction": "testamplify6b652e9b"
+        },
+        {
+            "lambdaFunction": "testamplify72f78b60"
+        },
+        {
+            "lambdaFunction": "testamplifyb11e842f"
+        },
+        {
+            "lambdaFunction": "postDemo"
+        },
+        {
+            "lambdaFunction": "expressSrini"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-testamplify-dev-133325-authRole",
+        "unAuthRoleName": "amplify-testamplify-dev-133325-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "storeNotify",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "testamplify6b652e9b",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "testamplify72f78b60",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "testamplifyb11e842f",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "postDemo",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "expressSrini",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "f7b5f2f8"
+}
